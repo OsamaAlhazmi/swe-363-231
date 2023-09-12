@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Exercicses html 1 and 2 (Semantic Structure)   -->
         <title> this osama's Blog </title>
         <meta name="Discription" content="the is a osama alhazmi personal blog">
         <meta name="keywords" content="kfupm, HTML , wep , design , blog" >
@@ -8,42 +9,63 @@
         
     </head>
     <body>
+      <nav>
+          <a href="./AboutMePage.html"> About Me Page </a>
+          <a href="./ContactMePage.html">Contact Me Page </a>
+          <a href="./HireME.html">Hire Me Page </a>
+      </nav>
+    
+      <header>
         <h1>the is osama personal blogs</h1>
+      </header>
+
         <img src=".\imges\AI blogger.jpg" width="30%">
         <br>
-        <p>Hi there! Welcome to my blog website, where I share my thoughts and opinions on various topics that interest me. Whether it's books, movies, music, travel, or anything else, you'll find something here that sparks your curiosity. I hope you enjoy reading my posts and feel free to leave a comment or contact me if you have any questions or feedback. Thanks for visiting!</p>
-        <nav>
-            <a href="./AboutMePage.html"> AboutMePage</a>
-            <a href="./ContactMePage.html">ContactMePage</a>
-            <a href="./HomePage.html">HomePage</a>
-
-        </nav>
+        <article">
+          <p>Hi there! Welcome to my blog website, where I share my thoughts and opinions on various topics that interest me. Whether it's books, movies, music, travel, or anything else, you'll find something here that sparks your curiosity. I hope you enjoy reading my posts and feel free to leave a comment or contact me if you have any questions or feedback. Thanks for visiting!</p>
+          
+        </article>
         <br>
-        <table border="1">
-            <tr>
-              <td>Hobby</td>
-              <td>Rank</td>
-              <td>When</td>
-              <td>why</td>
-            </tr>
-            <tr>
-              <td>Video game</td>
-              <td>#1</td>
-              <td>when i have time</td>
-              <td>its fun</td>
-            </tr>
-            <tr>
-                <td>Moives</td>
-                <td>#2</td>
-                <td>Evey friday</td>
+        <section class="Ranking Table">
+          <table border="1">
+              <tr>
+                <td>Hobby</td>
+                <td>Rank</td>
+                <td>When</td>
+                <td>why</td>
+              </tr>
+              <tr>
+                <td>Video game</td>
+                <td>#1</td>
+                <td>when i have time</td>
                 <td>its fun</td>
               </tr>
               <tr>
-                <td>Gym</td>
-                <td>#3</td>
-                <td>Every couple of days </td>
-                <td>it good for the body</td>
-              </tr>
-          </table>
+                  <td>Moives</td>
+                  <td>#2</td>
+                  <td>Evey friday</td>
+                  <td>its fun</td>
+                </tr>
+                <tr>
+                  <td>Gym</td>
+                  <td>#3</td>
+                  <td>Every couple of days </td>
+                  <td>it good for the body</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+      <!-- Exercicses HTML  2 (Footer)   -->
+        <section class="Footer-Container">
+          <div class="Footer nav">
+            <ul>
+              <li><a href="./ContactMePage.html">Contect me</a></li>
+              <li><a href="./HireME.html">Hire me</a></li>
+              <li><a href="./AboutMePage.html">About me</a></li>
+            </ul>
+            <p>Copyright &copy; 2023 </p>
+          </div>
+        </section>
+
     </body>
 </html>

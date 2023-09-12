@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>hireMePage</title>
+</head>
+
+
+<body>
+    <!-- Exercicses HTML  2 (Complex form)   -->
+    <nav>
+        <a href="./ContactMePage.html">Contact Me Page </a>
+        <a href="./HomePage.html">Home Page </a>
+        <a href="./AboutMePage.html"> About Me Page </a>
+    </nav>
+    <br>
+    <div class="Five-Screening-Questions-Contaniner">
+        <form>
+            <section>
+                <p> Q1:How will you contribute to this company in the future</p>
+                <form>
+                    <label for="Q1"></label>
+                    <input type="text" , id="Q1" , name="Q1" , placeholder="The Q1 answer">
+                </form>
+                <br>
+                <input type="reset">
+            </section>
+            <br>
+            <section>
+                <p> Q2: How do you manage stress in the workplace?</p>
+                <form action="">
+                    <label for="Q2"> take a break </label>
+                    <input type="radio" name="Q2">
+                    <label for="Q2"> leaving </label>
+                    <input type="radio" name="Q2">
+                    <label for="Q2"> talk with others </label>
+                    <input type="radio" name="Q2">
+                </form>
+            </section>
+            <br>
+            <section>
+                <datalist id="Q3 options">
+                    <option value="SuperMan"></option>
+                    <option value="BatMan"></option>
+                    <option value="SpiderMan"></option>
+                    <option value="IronMan"></option>
+                </datalist>
+                <form>
+                    <label for="Q3">Q3 :Which superhero would you want to be? </label>
+                    <input name="Q3" id="Q3" , list="Q3 options"></select>
+                </form>
+            </section>
+            <br>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend> Q4 :Describe a time you had to adapt to sudden change </legend>
+                        <textarea name="Q4" cols="190" rows="3" , placeholder="q4 answer"></textarea>
+                        <br>
+                        <input type="reset">
+                    </fieldset>
+                </form>
+            </section>
+            <br>
+            <section>
+                <form action="">
+                    <fieldset>
+                        <legend> Q5 : What is one thing you would change about your personality?</legend>
+                        <select id="Q5" name="Q5" size="6" multiple>
+                            <option value="Patience">Patience</option>
+                            <option value="Empathy">Empathy</option>
+                            <option value="Confidence">Confidence</option>
+                            <option value="Curiosity">Curiosity</option>
+                            <option value="Creativity">Creativity</option>
+                            <option value="Honesty">Honesty</option>
+                            <option value="Optimism">Optimism</option>
+                            <option value="Humility">Humility</option>
+
+                        </select>
+                    </fieldset>
+                </form>
+            </section>
+            <br>
+            <a href="./confirmationPage.html">
+                <button type="button">Submit</button>
+            </a>
+
+        </form>
+    </div>
+</body>
+
+</html>
