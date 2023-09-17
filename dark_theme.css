@@ -1,0 +1,32 @@
+ /* Exercicses 1 css   */
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+article {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.Ranking.table {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+
+.Footer-Container {
+    background-color: #1f1f1f;
+    color: #001aff;
+}
