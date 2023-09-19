@@ -1,0 +1,66 @@
+/* <!-- Exercicses css  2    --> */
+header{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+*{
+    font-family: sans-serif;
+}
+a{
+    color: green;
+}
+.top{
+    background-color: gold;
+    color: red;
+}
+em {
+    background-color: lightblue;
+}
+#the_most_important{
+text-transform: uppercase;
+background-color: gold;
+}
+h2{
+    font-family: sans-serif;
+}
+h2  p::first-letter {
+    font-size: x-large;
+}
+td:hover {
+    background-color: lightgreen;
+}
+nav li{
+    display: inline;
+ 
+}
+nav a:first-child{
+    text-transform: uppercase;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+p::selection{
+    background-color: lightgreen;
+}
+h1::selection{
+    background-color: lightgreen;
+}
+h2::selection{
+    background-color: lightgreen;
+}
+
+body a:hover{
+    cursor: pointer;
+}
+
+input{
+    height: 20px;
+}
+input[type="text"] {
+    border-color: lightgray;
+  }
+input[name="message"] {
+    height: 50px;
+}
